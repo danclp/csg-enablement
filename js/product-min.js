@@ -1,0 +1,1 @@
+jQuery(document).ready((function(a){a(".owl-carousel").owlCarousel({items:1,loop:!0,margin:10,URLhashListener:!0,startPosition:"URLHash",dots:!1}),a(document).ready((function(){a(".family-menu li a").on("click",(function(){a(".family-menu li").removeClass("active"),a(this).parent().addClass("active")}))}))}));

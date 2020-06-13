@@ -1,0 +1,1504 @@
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+html {
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers.
+ */
+body {
+  margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+main {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+a {
+  background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+button,
+input {
+  /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+button,
+select {
+  /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+button,
+[type=button],
+[type=reset],
+[type=submit] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+button::-moz-focus-inner,
+[type=button]::-moz-focus-inner,
+[type=reset]::-moz-focus-inner,
+[type=submit]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+button:-moz-focusring,
+[type=button]:-moz-focusring,
+[type=reset]:-moz-focusring,
+[type=submit]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+[type=checkbox],
+[type=radio] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+[type=number]::-webkit-inner-spin-button,
+[type=number]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+[type=search] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10+.
+ */
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+[hidden] {
+  display: none;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Light.woff2") format("woff2"), url("../fonts/Roboto-Light.woff") format("woff"), url("../fonts/Roboto-Light.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Regular.woff2") format("woff2"), url("../fonts/Roboto-Regular.woff") format("woff"), url("../fonts/Roboto-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Bold.woff2") format("woff2"), url("../fonts/Roboto-Bold.woff") format("woff"), url("../fonts/Roboto-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+.col-1 {
+  flex: 0 0 8.3333333333%;
+}
+
+.col-offset-1 {
+  margin-left: 8.3333333333%;
+}
+
+.col-2 {
+  flex: 0 0 16.6666666667%;
+}
+
+.col-offset-2 {
+  margin-left: 16.6666666667%;
+}
+
+.col-3 {
+  flex: 0 0 25%;
+}
+
+.col-offset-3 {
+  margin-left: 25%;
+}
+
+.col-4 {
+  flex: 0 0 33.3333333333%;
+}
+
+.col-offset-4 {
+  margin-left: 33.3333333333%;
+}
+
+.col-5 {
+  flex: 0 0 41.6666666667%;
+}
+
+.col-offset-5 {
+  margin-left: 41.6666666667%;
+}
+
+.col-6 {
+  flex: 0 0 50%;
+}
+
+.col-offset-6 {
+  margin-left: 50%;
+}
+
+.col-7 {
+  flex: 0 0 58.3333333333%;
+}
+
+.col-offset-7 {
+  margin-left: 58.3333333333%;
+}
+
+.col-8 {
+  flex: 0 0 66.6666666667%;
+}
+
+.col-offset-8 {
+  margin-left: 66.6666666667%;
+}
+
+.col-9 {
+  flex: 0 0 75%;
+}
+
+.col-offset-9 {
+  margin-left: 75%;
+}
+
+.col-10 {
+  flex: 0 0 83.3333333333%;
+}
+
+.col-offset-10 {
+  margin-left: 83.3333333333%;
+}
+
+.col-11 {
+  flex: 0 0 91.6666666667%;
+}
+
+.col-offset-11 {
+  margin-left: 91.6666666667%;
+}
+
+.col-12 {
+  flex: 0 0 100%;
+}
+
+.col-offset-12 {
+  margin-left: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+*:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ededed;
+  font: 100 1em/1.45 "Roboto", Arial, Helvetica, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font: 100 1em/1.45 "Roboto", Arial, Helvetica, sans-serif;
+  line-height: 1.15;
+  margin: 2.75rem 0 1rem;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 4.209em;
+}
+
+h2 {
+  font-size: 3.157em;
+}
+
+h3 {
+  font-size: 2.369em;
+}
+
+h4 {
+  font-size: 1.777em;
+}
+
+h5 {
+  font-size: 1.333em;
+}
+
+p {
+  margin-bottom: 1.25em;
+}
+
+small, .text_small {
+  font-size: 0.75em;
+}
+
+b {
+  font-weight: 700;
+}
+
+a {
+  color: #0076CE;
+  display: inline-block;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+figure {
+  margin: 0;
+  padding: 0;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.wrap {
+  transition: all 0.35s ease-in-out;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.outer-wrap {
+  transition: all 0.35s ease-in-out;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (min-width: 768px) {
+  .outer-wrap {
+    max-width: 750px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .outer-wrap {
+    max-width: 970px;
+  }
+}
+@media screen and (min-width: 1336px) {
+  .outer-wrap {
+    max-width: 1240px;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .outer-wrap {
+    max-width: 1740px;
+  }
+}
+
+.site-header {
+  background-image: linear-gradient(to right, #0076CE, #41B6E6);
+  padding: 20px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+}
+.site-header .site-nav ul {
+  display: flex;
+  justify-content: flex-end;
+}
+.site-header .site-nav li {
+  margin-left: 20px;
+}
+.site-header .site-nav a {
+  color: #FFF;
+}
+
+.site-section {
+  padding: 30px 0;
+  position: relative;
+}
+
+.bluebtn {
+  background-color: #0076CE;
+  padding: 5px 15px;
+  transition: all 0.35s ease-in-out;
+}
+.bluebtn a {
+  color: #FFF;
+}
+.bluebtn:hover {
+  background-color: #003c68;
+}
+.bluebtn:hover a {
+  color: #FFF;
+}
+
+.whitebtn {
+  border: 1px solid #0076CE;
+  color: #0076CE;
+  padding: 4px 15px;
+  transition: all 0.35s ease-in-out;
+}
+.whitebtn:hover {
+  background-color: #0076CE;
+}
+.whitebtn:hover a {
+  color: #FFF;
+}
+
+#video {
+  position: relative;
+}
+#video .vjs-big-play-button {
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 118, 206, 0.65);
+  border-radius: 0;
+  top: 50%;
+  left: 50%;
+}
+
+.intro-text .section-header {
+  font-size: 2.369em;
+  font-weight: 400;
+  margin-top: 0;
+}
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (orientation: landscape) {
+  .intro-text .section-header {
+    font-size: 2em;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .intro-text .section-header {
+    font-size: 3.157em;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .intro-text .section-header {
+    font-size: 3.8em;
+  }
+  .intro-text p {
+    font-size: 1.25em;
+  }
+}
+
+.site-footer {
+  background: #00447C;
+  color: #FFF;
+  padding: 20px 0;
+}
+.site-footer p {
+  margin: 0;
+}
+
+.hero {
+  background: url("../images/hero.jpg") left center/cover no-repeat;
+  margin-top: 50px;
+  position: relative;
+}
+.hero:before {
+  background-image: linear-gradient(to right, #FFF 50%, rgba(255, 255, 255, 0));
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+.hero .brands {
+  padding-top: 30px;
+  position: relative;
+  z-index: 2;
+}
+.hero .brands .dellbrand {
+  width: 160px;
+}
+.hero .brands .sponsorbrand {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+.hero .brands li:first-child {
+  font-size: 0.75em;
+  flex-basis: 100%;
+  margin-bottom: 10px;
+}
+.hero .brands li:nth-child(2) {
+  width: 130px;
+}
+.hero .intro-text {
+  margin-top: 50px;
+  position: relative;
+  z-index: 2;
+}
+.hero .intro-text .hero-headline {
+  width: 70%;
+}
+.hero .intro-text .hero-headline h1 {
+  font-size: 2.369em;
+  font-weight: 400;
+}
+.hero .intro-text .hero-headline .subhead {
+  font-size: 1.25em;
+}
+.hero .salestagline {
+  color: #262626;
+  margin: 0;
+}
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (orientation: landscape) {
+  .hero:before {
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0) 50%);
+  }
+  .hero:after {
+    background-image: linear-gradient(to left, rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0) 80%);
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  .hero .brands {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 0;
+  }
+  .hero .brands .sponsorbrand {
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-top: 0;
+    width: 135px;
+  }
+  .hero .intro-text {
+    margin-top: 30px;
+  }
+  .hero .intro-text .hero-headline {
+    width: 40%;
+  }
+  .hero .salestagline {
+    font-size: 0.75em;
+    line-height: 1;
+    margin-top: 10px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .hero {
+    padding: 60px 0;
+  }
+  .hero:before {
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0) 50%);
+  }
+  .hero:after {
+    background-image: linear-gradient(to left, rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0) 60%);
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  .hero .brands {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -30px;
+    padding-top: 0;
+  }
+  .hero .brands .sponsorbrand {
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-top: 0;
+    width: 135px;
+  }
+  .hero .intro-text {
+    margin-top: 60px;
+  }
+  .hero .intro-text .hero-headline {
+    width: 45%;
+  }
+  .hero .intro-text .hero-headline h1 {
+    font-size: 3.157em;
+  }
+  .hero .salestagline {
+    font-size: 0.75em;
+    line-height: 1;
+    margin-top: 10px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .hero {
+    padding: 80px 0;
+  }
+  .hero:before {
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0) 50%);
+  }
+  .hero:after {
+    background-image: linear-gradient(to left, rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0) 50%);
+  }
+  .hero .brands .dellbrand {
+    width: 200px;
+  }
+  .hero .brands .sponsorbrand {
+    justify-content: flex-end;
+    margin-top: 0;
+  }
+  .hero .intro-text {
+    max-width: 425px;
+  }
+  .hero .intro-text .hero-headline {
+    width: 80%;
+  }
+  .hero .intro-text .hero-headline h1 {
+    font-size: 4.209em;
+    line-height: 1;
+  }
+}
+@media screen and (min-width: 1336px) {
+  .hero {
+    padding: 80px 0 250px;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .hero {
+    padding: 80px 0 400px;
+  }
+  .hero .intro-text {
+    margin-top: 120px;
+    max-width: 600px;
+  }
+  .hero .intro-text .hero-headline h1 {
+    font-size: 5em;
+  }
+  .hero .intro-text .hero-headline .subhead {
+    font-size: 1.8em;
+  }
+}
+@media screen and (min-width: 2180px) {
+  .hero {
+    padding: 80px 0 500px;
+  }
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (orientation: landscape) {
+  .introduction .introduction-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .introduction .introduction-container .intro-text {
+    flex: 0 0 calc( 50% - 30px );
+    margin-right: 30px;
+  }
+  .introduction .introduction-container .intro-video {
+    flex: 0 0 50%;
+    overflow: hidden;
+  }
+}
+@media screen and (min-width: 768px) {
+  .introduction {
+    padding: 80px 0;
+  }
+  .introduction .introduction-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .introduction .introduction-container .intro-text {
+    flex: 0 0 calc( 50% - 30px );
+    margin-right: 30px;
+  }
+  .introduction .introduction-container .intro-video {
+    flex: 0 0 50%;
+    overflow: hidden;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .introduction .introduction-container .intro-text {
+    flex: 1 0 calc( 40% - 30px );
+  }
+  .introduction .introduction-container .intro-video {
+    flex: 3 0 50%;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .introduction .introduction-container .intro-text {
+    flex: 1 0 calc( 40% - 60px );
+    margin-right: 60px;
+  }
+}
+
+.products-entry {
+  background: url("../images/product-hero.jpg") center bottom/cover no-repeat;
+}
+.products-entry:before {
+  background: rgba(255, 255, 255, 0.45);
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.products-entry .products-entry-container {
+  position: relative;
+  z-index: 2;
+}
+.products-entry .intro-text {
+  margin-bottom: 30px;
+}
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (orientation: landscape) {
+  .products-entry .products-entry-container:before, .products-entry .products-entry-container:after {
+    content: "";
+    display: table;
+  }
+  .products-entry .products-entry-container:after {
+    display: block;
+    clear: both;
+    height: 1px;
+    margin-top: -1px;
+    visibility: hidden;
+  }
+  .products-entry .products-entry-container {
+    *zoom: 1;
+  }
+  .products-entry .intro-text {
+    margin: 50px 0 0;
+    width: 45%;
+  }
+  .products-entry .products-family {
+    float: right;
+    margin-bottom: 60px;
+    position: relative;
+    width: 380px;
+  }
+  .products-entry .products-family img {
+    position: absolute;
+    bottom: -85px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .products-entry {
+    height: 450px;
+  }
+  .products-entry .products-entry-container:before, .products-entry .products-entry-container:after {
+    content: "";
+    display: table;
+  }
+  .products-entry .products-entry-container:after {
+    display: block;
+    clear: both;
+    height: 1px;
+    margin-top: -1px;
+    visibility: hidden;
+  }
+  .products-entry .products-entry-container {
+    *zoom: 1;
+  }
+  .products-entry .intro-text {
+    float: left;
+    margin: 50px 390px 25px 0;
+  }
+  .products-entry .products-family {
+    float: right;
+    width: 470px;
+    margin-top: -195px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .products-entry {
+    height: 650px;
+  }
+  .products-entry .intro-text {
+    margin: 100px 570px 0 0;
+  }
+  .products-entry .products-family {
+    width: 680px;
+    margin-top: -185px;
+  }
+}
+@media screen and (min-width: 1336px) {
+  .products-entry .intro-text {
+    margin: 100px 780px 0 0;
+  }
+  .products-entry .products-family {
+    width: 780px;
+    margin-top: -225px;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .products-entry .intro-text {
+    margin: 100px 1130px 0 0;
+  }
+  .products-entry .products-family {
+    width: 800px;
+    margin-top: -260px;
+  }
+}
+
+.training-entry {
+  background: url("../images/training-hero.jpg") center center/cover no-repeat;
+  min-height: 350px;
+}
+.training-entry:before {
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.85) 30%, rgba(255, 255, 255, 0.3));
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+.training-entry .intro-text {
+  margin-right: 80px;
+  position: relative;
+  z-index: 2;
+}
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (orientation: landscape) {
+  .training-entry .intro-text {
+    margin: 30px 340px 0 0;
+  }
+}
+@media screen and (min-width: 768px) {
+  .training-entry:before {
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.85) 10%, rgba(255, 255, 255, 0));
+  }
+  .training-entry .intro-text {
+    margin: 30px 400px 0 0;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .training-entry {
+    height: 450px;
+  }
+  .training-entry:before {
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0) 80%);
+  }
+  .training-entry .intro-text {
+    margin: 30px 550px 0 0;
+  }
+}
+@media screen and (min-width: 1336px) {
+  .training-entry {
+    height: 550px;
+  }
+  .training-entry .intro-text {
+    margin: 30px 800px 0 0;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .training-entry {
+    height: 650px;
+  }
+  .training-entry .intro-text {
+    margin: 80px 1180px 0 0;
+  }
+}
+
+.registration .hide {
+  display: none;
+}
+.registration .eform {
+  margin-top: 30px;
+}
+.registration .eform .form-field {
+  margin-bottom: 10px;
+}
+.registration .eform small {
+  color: #CE1126;
+  display: block;
+  float: right;
+}
+.registration .eform label {
+  display: block;
+  margin-bottom: 10px;
+}
+.registration .eform input, .registration .eform textarea {
+  background: #FFF;
+  border: 0;
+  padding: 5px 10px;
+  width: 100%;
+}
+.registration .eform input[type=submit] {
+  background: #0076CE;
+  color: #FFF;
+  padding: 10px 0;
+  transition: all 0.35s ease-in-out;
+}
+.registration .eform input[type=submit]:hover {
+  background: #003c68;
+}
+.registration .eform textarea {
+  height: 60px;
+}
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (orientation: landscape) {
+  .registration .registration-container {
+    display: flex;
+  }
+  .registration .registration-container .intro-text {
+    flex: 1 0 calc( 50% - 30px );
+    margin-right: 30px;
+  }
+  .registration .registration-container .eform {
+    margin-top: 0;
+  }
+}
+@media screen and (min-width: 768px) {
+  .registration {
+    padding: 80px 0;
+  }
+  .registration .registration-container {
+    display: flex;
+  }
+  .registration .registration-container .intro-text {
+    flex: 1 0 calc( 50% - 30px );
+    margin-right: 30px;
+  }
+  .registration .eform {
+    margin-top: 0;
+  }
+  .registration .eform input[type=submit] {
+    padding: 10px 20px;
+    width: auto;
+  }
+}
+@media screen and (min-width: 1336px) {
+  .registration .registration-container .intro-text {
+    flex: 1 0 calc( 50% - 300px );
+    margin-right: 300px;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .registration .registration-container .intro-text {
+    flex: 1 0 calc( 50% - 600px );
+    margin-right: 600px;
+  }
+}
+
+.products .hero {
+  background: url("../images/productlist-hero.jpg") center center/cover no-repeat;
+  padding-bottom: 30%;
+}
+.products .hero:before {
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.85) 70%, rgba(255, 255, 255, 0.65));
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+.products .introduction {
+  padding-bottom: 0;
+}
+.products .introduction h3 {
+  font-size: 1.777em;
+}
+.products .introduction-container {
+  display: inherit;
+}
+.products .products-list .products-list-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.products .products-list .product-box {
+  display: flex;
+  margin-bottom: 20px;
+}
+.products .products-list .product-specs {
+  background-color: #0076CE;
+  color: #FFF;
+  font-size: 0.85em;
+  padding: 10px;
+}
+.products .products-list .product-specs h4 {
+  font-size: 1.2em;
+  margin: 0;
+}
+.products .products-list .product-specs a {
+  color: #FFF;
+}
+.products .products-list .whitebtn {
+  border: 1px solid #FFF;
+  font-size: 0.75em;
+  margin-top: 10px;
+}
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (orientation: landscape) {
+  .products .hero {
+    height: 350px;
+  }
+  .products .hero:before {
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0));
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+  }
+  .products .hero:after {
+    background: none;
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+  }
+  .products .products-list .products-list-container {
+    flex-direction: row;
+  }
+  .products .products-list .product-box {
+    display: block;
+    flex: 1 0 calc((100% / 4 * 2) - 20px);
+  }
+  .products .products-list .product-box:nth-child(2n+1) {
+    margin-right: 20px;
+  }
+  .products .products-list .product-box .product-specs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .products .products-list .product-box .product-specs .whitebtn {
+    margin-top: 20px;
+  }
+  .products .products-list .product-box .product-specs p {
+    margin-bottom: 0;
+  }
+}
+@media screen and (min-width: 768px) {
+  .products .hero {
+    height: 450px;
+  }
+  .products .hero:before {
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0));
+    content: "";
+    display: block;
+    width: 60%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+  }
+  .products .hero:after {
+    background: none;
+    content: "";
+  }
+  .products .introduction {
+    padding-top: 60px;
+  }
+  .products .products-list .products-list-container {
+    flex-direction: row;
+  }
+  .products .products-list .product-box {
+    background: #0076CE;
+    display: block;
+    flex: 1 0 calc((100% / 16 * 4) - 40px);
+    margin-right: 20px;
+  }
+  .products .products-list .product-box:nth-child(4n) {
+    margin-right: 0;
+  }
+  .products .products-list .product-box .product-specs {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .products .products-list .product-box .product-specs .whitebtn {
+    margin-top: 20px;
+  }
+  .products .products-list .product-box .product-specs p {
+    margin-bottom: 0;
+  }
+  .products .products-list .product-box .whitebtn {
+    font-size: 0.85em;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .products .hero {
+    height: 550px;
+  }
+}
+@media screen and (min-width: 1336px) {
+  .products .hero {
+    background: url("../images/productlist-hero.jpg") center 65%/cover no-repeat;
+    height: 700px;
+  }
+  .products .introduction, .products .products-list {
+    max-width: 1240px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .products .hero {
+    height: 950px;
+  }
+}
+
+.training .hero {
+  background: url("../images/training-hero.jpg") right center/cover no-repeat;
+  padding-bottom: 30%;
+}
+.training .hero:before {
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.85) 70%, rgba(255, 255, 255, 0.65));
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+.training .virtual {
+  background-color: #cccccc;
+  height: 300px;
+}
+.training .virtual h2 {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+.training .leaderboard h3 {
+  margin-top: 0;
+}
+.training .leaderboard .leaderboard-runners ul {
+  margin-bottom: 30px;
+}
+.training .leaderboard .leaderboard-runners li {
+  background-color: #FFF;
+  color: #0076CE;
+  font-weight: 700;
+  margin-bottom: 10px;
+  padding: 5px 10px;
+}
+.training .leaderboard .leaderboard-runners li span {
+  border-radius: 50%;
+  color: #000;
+  display: inline-block;
+  line-height: 30px;
+  margin-right: 20px;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+}
+.training .leaderboard .leaderboard-runners li span.gold {
+  background-color: #D5BB66;
+}
+.training .leaderboard .leaderboard-runners li span.silver {
+  background-color: #D4D5D6;
+}
+.training .leaderboard .leaderboard-runners li span.bronze {
+  background-color: #C08C57;
+}
+.training .leaderboard .leaderboard-listing li {
+  background-image: linear-gradient(45deg, #0076CE, #41B6E6);
+  border-bottom: 1px solid #ededed;
+  color: #FFF;
+  padding: 8px 10px;
+}
+.training .prize {
+  background-image: linear-gradient(45deg, #0076CE, #41B6E6);
+  color: #FFF;
+}
+.training .prize h3 {
+  margin-top: 0;
+}
+.training .prize .prize-img {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 300px;
+  width: 80%;
+}
+.training .prize .prize-tc ul {
+  font-size: 0.75em;
+  text-align: right;
+}
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (orientation: landscape) {
+  .training .hero {
+    height: 300px;
+  }
+  .training .hero:before {
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0));
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+  }
+  .training .hero:after {
+    background: none;
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+  }
+  .training .hero .sponsorbrand li:first-child {
+    color: #FFF;
+  }
+  .training .hero .salestagline {
+    color: #FFF;
+  }
+  .training .leaderboard .leaderboard-stage {
+    display: flex;
+  }
+  .training .leaderboard .leaderboard-runners {
+    flex: 0 0 calc(50% - 30px);
+    margin-right: 30px;
+  }
+  .training .leaderboard .leaderboard-listing {
+    flex: 1 0 auto;
+  }
+  .training .prize .prize-img {
+    width: 50%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .training .hero {
+    height: 400px;
+  }
+  .training .hero:before {
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0));
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+  }
+  .training .hero:after {
+    background: none;
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+  }
+  .training .hero .sponsorbrand li:first-child {
+    color: #FFF;
+  }
+  .training .hero .salestagline {
+    color: #FFF;
+  }
+  .training .virtual {
+    height: 500px;
+  }
+  .training .leaderboard .leaderboard-stage {
+    display: flex;
+  }
+  .training .leaderboard .leaderboard-runners {
+    flex: 0 0 calc(50% - 30px);
+    margin-right: 30px;
+  }
+  .training .leaderboard .leaderboard-listing {
+    flex: 1 0 auto;
+  }
+  .training .prize .prize-img {
+    width: 50%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .training .hero {
+    height: 500px;
+  }
+  .training .leaderboard .leaderboard-runners {
+    flex: 1 0 30%;
+  }
+  .training .leaderboard .leaderboard-listing {
+    flex: 1 0 65%;
+  }
+  .training .leaderboard .leaderboard-listing ul {
+    column-count: 2;
+    column-gap: 15px;
+  }
+  .training .leaderboard .leaderboard-listing li:nth-child(9) {
+    border-bottom: 0;
+  }
+}
+@media screen and (min-width: 1336px) {
+  .training .hero {
+    height: 600px;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .training .hero {
+    height: 800px;
+  }
+}

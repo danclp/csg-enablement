@@ -1,0 +1,58 @@
+.introduction {
+	@include retina(iPhonel) {
+		.introduction-container {
+			display: flex;
+			justify-content: space-between;
+
+			.intro-text {
+				flex: 0 0 calc( 50% - 30px );
+				margin-right: 30px;
+			} // .intro-text
+
+			.intro-video {
+				flex: 0 0 50%;
+				overflow: hidden;
+			} // .intro-video
+		} // .introduction-container
+	} // retina(iPhonel)
+
+	@include breakpoint($tablet) {
+		padding: 80px 0;
+
+		.introduction-container {
+			display: flex;
+			justify-content: space-between;
+
+			.intro-text {
+				flex: 0 0 calc( 50% - 30px );
+				margin-right: 30px;
+			} // .intro-text
+
+			.intro-video {
+				flex: 0 0 50%;
+				overflow: hidden;
+			} // .intro-video
+		} // .introduction-container
+	} // breakpoint($tablet)
+
+	@include breakpoint($desktop) {
+		.introduction-container {
+			.intro-text {
+				flex: 1 0 calc( 40% - 30px );
+			} // .intro-text
+
+			.intro-video {
+				flex: 3 0 50%;
+			} // .intro-video
+		} // .introduction-container
+	} // breakpoint($desktop)
+
+	@include breakpoint($widescn) {
+		.introduction-container {
+			.intro-text {
+				flex: 1 0 calc( 40% - 60px );
+				margin-right: 60px;
+			} // .intro-text
+		} // .introduction-container
+	} // breakpoint($widescn)
+} // .introduction

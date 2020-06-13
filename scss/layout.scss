@@ -1,0 +1,118 @@
+.site-header {
+	background: {
+		image: linear-gradient(to right, site-color('primary'), site-color('lightblue'));
+	}; // background 
+	padding: 20px 0;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 10;
+
+	.site-nav {
+		ul {
+			display: flex;
+			justify-content: flex-end;
+		} // ul
+
+		li {
+			margin-left: 20px;
+		} // li
+
+		a {
+			color: site-color('day');
+		} // a
+	} // .site-nav
+} // .site-header
+
+.site-section {
+	padding: 30px 0;
+	position: relative;
+} // .site-section
+
+.bluebtn {
+	background-color: site-color('primary');
+	padding: 5px 15px;
+	transition: all 0.35s ease-in-out;
+
+	a {
+		color: site-color('day');
+	} // a
+
+	&:hover {
+		background-color: darken(site-color('primary'), 20);
+		
+		a {
+			color: site-color('day');
+		} // a
+	} // :hover
+} // .bluebtn
+
+.whitebtn {
+	border: 1px solid site-color('primary');
+	color: site-color('primary');
+	padding: 4px 15px;
+	transition: all 0.35s ease-in-out;
+
+	&:hover {
+		background-color: site-color('primary');
+		
+		a {
+			color: site-color('day');
+		} // a
+	} // :hover
+} // .whitebtn
+
+#video {
+	position: relative;
+
+	.vjs-big-play-button {
+		transform: translate(-50%, -50%);
+		background-color: rgba( site-color('primary'), 0.65 );
+		border-radius: 0;
+		top: 50%;
+		left: 50%;
+	} // .vjs-big-play-button
+} // #video
+
+.intro-text {
+	.section-header {
+		font: {
+			size: 2.369em;
+			weight: weight(regular);
+		} // font
+		margin-top: 0;
+	} // .section-header
+
+	@include retina(iPhonel) {
+		.section-header {
+			font-size: 2em;
+		} // .section-header
+	} // retina(iPhonel)
+
+	@include breakpoint($desktop) {
+		.section-header {
+			font-size: 3.157em;
+		} // .section-header
+	} // bp($desktop)
+
+	@include breakpoint($widescn) {
+		.section-header {
+			font-size: 3.8em;
+		} // .section-header
+
+		p {
+			font-size: 1.25em;
+		} // p
+	} // bp($widescn)
+} // .intro-text
+
+.site-footer {
+	background: site-color('midnight');
+	color: site-color('day');
+	padding: 20px 0;
+
+	p {
+		margin: 0;
+	} // p
+} // .site-footer
