@@ -49,17 +49,17 @@
 } // .bluebtn
 
 .whitebtn {
-	border: 1px solid site-color('primary');
-	color: site-color('primary');
+	border: 1px solid site-color('day');
 	padding: 4px 15px;
 	transition: all 0.35s ease-in-out;
 
+	a {
+		color: site-color('day');
+	} // a
+
 	&:hover {
-		background-color: site-color('primary');
-		
-		a {
-			color: site-color('day');
-		} // a
+		background-color: site-color('midnight');
+		border: 1px solid site-color('midnight');
 	} // :hover
 } // .whitebtn
 

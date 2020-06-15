@@ -9,12 +9,84 @@
 	],
 "creatorBuild": "32186",
 "files": {
-	"/brochures/Dell Optimizer.pdf": {
+	"/.gitignore": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/brochures/Dell Optimizer.pdf",
+		"oAP": "/.gitignore",
+		"oF": 0
+		},
+	"/brochures/Dell Precision 3550 Mobile Spec Sheet.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/brochures/Dell Precision 3550 Mobile Spec Sheet.pdf",
+		"oF": 0
+		},
+	"/brochures/Dell Precision 3551 Mobile Spec Sheet.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/brochures/Dell Precision 3551 Mobile Spec Sheet.pdf",
+		"oF": 0
+		},
+	"/brochures/Dell Precision 5550 Mobile Spec Sheet.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/brochures/Dell Precision 5550 Mobile Spec Sheet.pdf",
+		"oF": 0
+		},
+	"/brochures/Dell Precision 5750 Mobile Spec Sheet.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/brochures/Dell Precision 5750 Mobile Spec Sheet.pdf",
+		"oF": 0
+		},
+	"/brochures/Dell Precision 7550 Mobile Spec Sheet.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/brochures/Dell Precision 7550 Mobile Spec Sheet.pdf",
+		"oF": 0
+		},
+	"/brochures/Dell Precision 7750 Mobile Spec Sheet.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/brochures/Dell Precision 7750 Mobile Spec Sheet.pdf",
+		"oF": 0
+		},
+	"/brochures/Dell-Optimizer.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/brochures/Dell-Optimizer.pdf",
+		"oF": 0
+		},
+	"/brochures/Dell-Precision-3440-SFF-Spec-Sheet.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/brochures/Dell-Precision-3440-SFF-Spec-Sheet.pdf",
+		"oF": 0
+		},
+	"/brochures/Dell-Precision-3640-Tower-Spec-Sheet.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/brochures/Dell-Precision-3640-Tower-Spec-Sheet.pdf",
 		"oF": 0
 		},
 	"/brochures/dell-technologies-unified-workspace-brochure.pdf": {
@@ -23,6 +95,86 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/brochures/dell-technologies-unified-workspace-brochure.pdf",
+		"oF": 0
+		},
+	"/brochures/latitude-3x10-spec-sheet.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/brochures/latitude-3x10-spec-sheet.pdf",
+		"oF": 0
+		},
+	"/brochures/latitude-5310-2n1-spec-sheet.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/brochures/latitude-5310-2n1-spec-sheet.pdf",
+		"oF": 0
+		},
+	"/brochures/latitude-5x10-spec-sheet.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/brochures/latitude-5x10-spec-sheet.pdf",
+		"oF": 0
+		},
+	"/brochures/latitude-7210-2n1-spec-sheet.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/brochures/latitude-7210-2n1-spec-sheet.pdf",
+		"oF": 0
+		},
+	"/brochures/latitude-7x10-spec-sheet.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/brochures/latitude-7x10-spec-sheet.pdf",
+		"oF": 0
+		},
+	"/brochures/latitude-9410-spec-sheet.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/brochures/latitude-9410-spec-sheet.pdf",
+		"oF": 0
+		},
+	"/brochures/latitude_9510_spec_sheet.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/brochures/latitude_9510_spec_sheet.pdf",
+		"oF": 0
+		},
+	"/brochures/mobile-workstation-3x50.zip": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/brochures/mobile-workstation-3x50.zip",
+		"oF": 0
+		},
+	"/brochures/Mobile-workstation-5x50.zip": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/brochures/Mobile-workstation-5x50.zip",
+		"oF": 0
+		},
+	"/brochures/Mobile-workstation-7x50.zip": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/brochures/Mobile-workstation-7x50.zip",
 		"oF": 0
 		},
 	"/brochures/optiplex-3280-all-in-one-spec-sheet.pdf": {
@@ -80,6 +232,49 @@
 		"oA": 0,
 		"oAP": "/brochures/optiplex-7780-all-in-one-spec-sheet.pdf",
 		"oF": 0
+		},
+	"/Build/GIT_webglTests.data.unityweb": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/Build/GIT_webglTests.data.unityweb",
+		"oF": 0
+		},
+	"/Build/GIT_webglTests.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/Build/GIT_webglTests-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"/Build/GIT_webglTests.wasm.code.unityweb": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/Build/GIT_webglTests.wasm.code.unityweb",
+		"oF": 0
+		},
+	"/Build/GIT_webglTests.wasm.framework.unityweb": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/Build/GIT_webglTests.wasm.framework.unityweb",
+		"oF": 0
+		},
+	"/Build/UnityLoader.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/Build/UnityLoader-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
 		},
 	"/css/screen.css": {
 		"aP": 1,
@@ -387,6 +582,17 @@
 		"opt": 1,
 		"q": 100
 		},
+	"/images/Competitve-comparision.png": {
+		"ft": 32768,
+		"iS": 101011,
+		"oA": 0,
+		"oAP": "/images/Competitve-comparision.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"/images/dellBrand.png": {
 		"ft": 32768,
 		"iS": 8812,
@@ -418,6 +624,28 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
+		"q": 100
+		},
+	"/images/Latitude-5310.jpg": {
+		"ft": 16384,
+		"iS": 64901,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/Latitude-5310.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/images/Latitude-9410-2-in-1.jpg": {
+		"ft": 16384,
+		"iS": 77031,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/Latitude-9410-2-in-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/images/latitude3510.jpg": {
@@ -484,6 +712,17 @@
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
+		"q": 100
+		},
+	"/images/Optiplex-AIO-7480.jpg": {
+		"ft": 16384,
+		"iS": 94607,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/Optiplex-AIO-7480.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/images/optiUltra.jpg": {
@@ -857,6 +1096,123 @@
 		"oS": 0,
 		"sct": 0
 		},
+	"/TemplateData/favicon.ico": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/TemplateData/favicon.ico",
+		"oF": 0
+		},
+	"/TemplateData/fullscreen.png": {
+		"ft": 32768,
+		"iS": 345,
+		"oA": 0,
+		"oAP": "/TemplateData/fullscreen.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/TemplateData/progressEmpty.Dark.png": {
+		"ft": 32768,
+		"iS": 155,
+		"oA": 0,
+		"oAP": "/TemplateData/progressEmpty.Dark.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/TemplateData/progressEmpty.Light.png": {
+		"ft": 32768,
+		"iS": 159,
+		"oA": 0,
+		"oAP": "/TemplateData/progressEmpty.Light.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/TemplateData/progressFull.Dark.png": {
+		"ft": 32768,
+		"iS": 137,
+		"oA": 0,
+		"oAP": "/TemplateData/progressFull.Dark.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/TemplateData/progressFull.Light.png": {
+		"ft": 32768,
+		"iS": 142,
+		"oA": 0,
+		"oAP": "/TemplateData/progressFull.Light.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/TemplateData/progressLogo.Dark.png": {
+		"ft": 32768,
+		"iS": 2343,
+		"oA": 0,
+		"oAP": "/TemplateData/progressLogo.Dark.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/TemplateData/progressLogo.Light.png": {
+		"ft": 32768,
+		"iS": 2259,
+		"oA": 0,
+		"oAP": "/TemplateData/progressLogo.Light.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/TemplateData/style.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/TemplateData/style-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/TemplateData/UnityProgress.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/TemplateData/UnityProgress-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/TemplateData/webgl-logo.png": {
+		"ft": 32768,
+		"iS": 3587,
+		"oA": 0,
+		"oAP": "/TemplateData/webgl-logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/virtual.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -864,6 +1220,174 @@
 		"oA": 0,
 		"oAP": "/virtual.html",
 		"oF": 0
+		},
+	"/virtual/Build/GIT_webglTests.data.unityweb": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/virtual/Build/GIT_webglTests.data.unityweb",
+		"oF": 0
+		},
+	"/virtual/Build/GIT_webglTests.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/virtual/Build/GIT_webglTests-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"/virtual/Build/GIT_webglTests.wasm.code.unityweb": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/virtual/Build/GIT_webglTests.wasm.code.unityweb",
+		"oF": 0
+		},
+	"/virtual/Build/GIT_webglTests.wasm.framework.unityweb": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/virtual/Build/GIT_webglTests.wasm.framework.unityweb",
+		"oF": 0
+		},
+	"/virtual/Build/UnityLoader.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/virtual/Build/UnityLoader-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/virtual/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/virtual/index.html",
+		"oF": 0
+		},
+	"/virtual/TemplateData/favicon.ico": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/virtual/TemplateData/favicon.ico",
+		"oF": 0
+		},
+	"/virtual/TemplateData/fullscreen.png": {
+		"ft": 32768,
+		"iS": 345,
+		"oA": 0,
+		"oAP": "/virtual/TemplateData/fullscreen.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/virtual/TemplateData/progressEmpty.Dark.png": {
+		"ft": 32768,
+		"iS": 155,
+		"oA": 0,
+		"oAP": "/virtual/TemplateData/progressEmpty.Dark.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/virtual/TemplateData/progressEmpty.Light.png": {
+		"ft": 32768,
+		"iS": 159,
+		"oA": 0,
+		"oAP": "/virtual/TemplateData/progressEmpty.Light.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/virtual/TemplateData/progressFull.Dark.png": {
+		"ft": 32768,
+		"iS": 137,
+		"oA": 0,
+		"oAP": "/virtual/TemplateData/progressFull.Dark.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/virtual/TemplateData/progressFull.Light.png": {
+		"ft": 32768,
+		"iS": 142,
+		"oA": 0,
+		"oAP": "/virtual/TemplateData/progressFull.Light.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/virtual/TemplateData/progressLogo.Dark.png": {
+		"ft": 32768,
+		"iS": 2343,
+		"oA": 0,
+		"oAP": "/virtual/TemplateData/progressLogo.Dark.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/virtual/TemplateData/progressLogo.Light.png": {
+		"ft": 32768,
+		"iS": 2259,
+		"oA": 0,
+		"oAP": "/virtual/TemplateData/progressLogo.Light.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/virtual/TemplateData/style.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/virtual/TemplateData/style-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/virtual/TemplateData/UnityProgress.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/virtual/TemplateData/UnityProgress-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/virtual/TemplateData/webgl-logo.png": {
+		"ft": 32768,
+		"iS": 3587,
+		"oA": 0,
+		"oAP": "/virtual/TemplateData/webgl-logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		}
 	},
 "hooks": [

@@ -8,7 +8,9 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <link rel="stylesheet" href="TemplateData/style.css">
 	<link href="//vjs.zencdn.net/7.7.5/video-js.css" rel="stylesheet" />
 	<link rel="stylesheet" href="css/screen.css" />
 
@@ -57,7 +59,14 @@
 
 	<section class="site-section virtual">
 		<div class="wrap">
-			<h2>Virtual Room</h2>
+			<div class="webgl-content">
+	      <div id="unityContainer"></div>
+	      <div class="footer">
+	        <div class="disclaimer"><small>If you would like to re-load the virtual environment, please refresh your browser page</small>.</div>
+	        <div class="fullscreen" onclick="unityInstance.SetFullscreen(1)"></div>
+	        <div class="title">Dell Product Training</div>
+	      </div>
+	    </div>
 		</div>
 	</section>
 
@@ -66,9 +75,10 @@
 			<div class="leaderboard-container">
 				<div class="leaderboard-message">
 					<h3>Leaderboard</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum in impedit adipisci illo. Eum, assumenda, facilis animi, eius sit at non mollitia nam atque neque dignissimos saepe ratione doloremque voluptatum.</p>
+					<p>Leaderboard will be updated at the end of Day 1. Please check back again later.</p>
+					<!--p>Let’s take a look at the current leaderboard. <br><small>*Leaderboard will be updated at the end of each day.</small></p-->
 				</div>
-				<div class="leaderboard-stage">
+				<!--div class="leaderboard-stage">
 					<div class="leaderboard-runners">
 						<ul>
 							<li><span class="gold">1</span>Name</li>
@@ -97,7 +107,7 @@
 							<li>20. Name</li>
 						</ul>
 					</div>
-				</div>
+				</div-->
 			</div>
 		</div>
 	</section>
@@ -105,14 +115,27 @@
 	<section class="site-section prize">
 		<div class="outer-wrap wrap">
 			<h3>Prizes</h3>
-			<div class="prize-img">
-				<img src="images/mouse.png" alt="">
-			</div>
-			<div class="prize-tc">
-				<ul>
-					<li>Limited to first 250 pax</li>
-					<li>Mouse is only for first 50 with highest score</li>
-				</ul>
+			<div class="prize-container">
+				<div class="prize-intro">
+					<h4>Stand A Chance To Win:</h4>
+					<p><b>Dell Multi-Device Wireless Mouse - MS5320W</b> Sculpted programmable mouse for working flexibly across 3 devices</p>
+				</div>
+				<div class="prize-img">
+					<img src="images/mouse.png" alt="">
+					<div class="prize-tc">
+						<ul>
+							<li>Limited to first 250 pax</li>
+							<li>Mouse is only for first 50 with highest score</li>
+						</ul>
+					</div>
+				</div>
+				<div class="prize-con">
+					<ul style="color:#CCE4F5; font-family:arial,sans-serif; font-size:13px;">
+				          <li>3 times more reliable - offers you absolute peace of mind with up to 36 months* battery life</li>
+				          <li>Most convenient/ flexible with Bluetooth 5.0 and 2.4GHz wireless dual mode connectivity</li>
+				          <li>Enhanced Productivity with customized frequently used apps via Peripheral manager</li>
+				        </ul>
+				</div>
 			</div>
 		</div>
 	</section>
@@ -126,6 +149,11 @@
 	</footer>
 
 	<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="TemplateData/UnityProgress.js"></script>
+  <script src="Build/UnityLoader.js"></script>
 	<script src="//vjs.zencdn.net/7.7.5/video.js"></script>
+	<script>
+		var unityInstance = UnityLoader.instantiate("unityContainer", "Build/GIT_webglTests.json", {onProgress: UnityProgress});
+   </script>
 </body>
 </html>

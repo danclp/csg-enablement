@@ -50,6 +50,10 @@ h5 {
 
 p {
 	margin-bottom   : 1.25em;
+
+	&:last-child {
+		margin-bottom: 0;
+	} // :last-child
 } //p
 
 small, .text_small {

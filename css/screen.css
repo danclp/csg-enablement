@@ -493,6 +493,9 @@ h5 {
 p {
   margin-bottom: 1.25em;
 }
+p:last-child {
+  margin-bottom: 0;
+}
 
 small, .text_small {
   font-size: 0.75em;
@@ -603,16 +606,16 @@ figure {
 }
 
 .whitebtn {
-  border: 1px solid #0076CE;
-  color: #0076CE;
+  border: 1px solid #FFF;
   padding: 4px 15px;
   transition: all 0.35s ease-in-out;
 }
-.whitebtn:hover {
-  background-color: #0076CE;
-}
-.whitebtn:hover a {
+.whitebtn a {
   color: #FFF;
+}
+.whitebtn:hover {
+  background-color: #00447C;
+  border: 1px solid #00447C;
 }
 
 #video {
@@ -1166,37 +1169,49 @@ figure {
 .products .introduction-container {
   display: inherit;
 }
-.products .products-list .products-list-container {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
+.products .products-list .cate-title {
+  font-size: 1.5em;
+  font-weight: 700;
+  margin-top: 1em;
 }
 .products .products-list .product-box {
-  display: flex;
-  margin-bottom: 20px;
+  background-color: #0076CE;
+  margin-bottom: 30px;
+  min-width: 220px;
 }
 .products .products-list .product-specs {
-  background-color: #0076CE;
+  align-items: flex-start;
   color: #FFF;
-  font-size: 0.85em;
-  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+  padding: 15px;
 }
 .products .products-list .product-specs h4 {
-  font-size: 1.2em;
-  margin: 0;
-}
-.products .products-list .product-specs a {
-  color: #FFF;
+  font-size: 1.25em;
+  font-weight: 700;
+  margin-top: 0;
 }
 .products .products-list .whitebtn {
-  border: 1px solid #FFF;
-  font-size: 0.75em;
-  margin-top: 10px;
+  float: left;
+  margin-top: 20px;
+}
+@media screen and (min-width: 430px) and (max-width: 667px) {
+  .products .products-list .products-cate-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+  .products .products-list .product-box {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    margin-right: 15px;
+    width: calc(100% / 12 * 6 - 30px);
+  }
 }
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (orientation: landscape) {
-  .products .hero {
-    height: 350px;
-  }
   .products .hero:before {
     background-image: linear-gradient(to right, rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0));
     content: "";
@@ -1215,27 +1230,18 @@ figure {
     position: absolute;
     top: 0;
   }
-  .products .products-list .products-list-container {
-    flex-direction: row;
+  .products .products-list .products-cate-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
   }
   .products .products-list .product-box {
-    display: block;
-    flex: 1 0 calc((100% / 4 * 2) - 20px);
-  }
-  .products .products-list .product-box:nth-child(2n+1) {
-    margin-right: 20px;
-  }
-  .products .products-list .product-box .product-specs {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-  }
-  .products .products-list .product-box .product-specs .whitebtn {
-    margin-top: 20px;
-  }
-  .products .products-list .product-box .product-specs p {
-    margin-bottom: 0;
+    margin-left: 15px;
+    margin-right: 15px;
+    width: calc(100% / 12 * 6 - 30px);
   }
 }
 @media screen and (min-width: 768px) {
@@ -1258,31 +1264,18 @@ figure {
   .products .introduction {
     padding-top: 60px;
   }
-  .products .products-list .products-list-container {
-    flex-direction: row;
+  .products .products-list .products-cate-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
   }
   .products .products-list .product-box {
-    background: #0076CE;
-    display: block;
-    flex: 1 0 calc((100% / 16 * 4) - 40px);
-    margin-right: 20px;
-  }
-  .products .products-list .product-box:nth-child(4n) {
-    margin-right: 0;
-  }
-  .products .products-list .product-box .product-specs {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-  }
-  .products .products-list .product-box .product-specs .whitebtn {
-    margin-top: 20px;
-  }
-  .products .products-list .product-box .product-specs p {
-    margin-bottom: 0;
-  }
-  .products .products-list .product-box .whitebtn {
-    font-size: 0.85em;
+    margin-left: 15px;
+    margin-right: 15px;
+    width: calc(100% / 12 * 4 - 60px);
   }
 }
 @media screen and (min-width: 1024px) {
@@ -1299,6 +1292,9 @@ figure {
     max-width: 1240px;
     margin-left: auto;
     margin-right: auto;
+  }
+  .products .products-list .product-box {
+    width: calc(100% / 12 * 3 - 55px);
   }
 }
 @media screen and (min-width: 1920px) {
@@ -1321,8 +1317,11 @@ figure {
   top: 0;
 }
 .training .virtual {
-  background-color: #cccccc;
-  height: 300px;
+  background-color: #FFF;
+  padding-top: 45%;
+}
+.training .virtual #unityContainer {
+  width: 900px;
 }
 .training .virtual h2 {
   margin: 0;
@@ -1377,15 +1376,29 @@ figure {
 .training .prize h3 {
   margin-top: 0;
 }
+.training .prize .prize-intro {
+  margin-bottom: 30px;
+}
 .training .prize .prize-img {
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 30px;
   max-width: 300px;
   width: 80%;
+}
+.training .prize .prize-tc {
+  color: #9bd4ff;
 }
 .training .prize .prize-tc ul {
   font-size: 0.75em;
   text-align: right;
+}
+.training .prize .prize-con ul {
+  list-style: disc;
+  margin-left: 20px;
+}
+.training .prize .prize-con ul li {
+  margin-bottom: 15px;
 }
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (orientation: landscape) {
   .training .hero {
@@ -1426,7 +1439,15 @@ figure {
     flex: 1 0 auto;
   }
   .training .prize .prize-img {
+    display: inline-block;
+    margin: 0 30px 0 0;
+    vertical-align: middle;
     width: 50%;
+  }
+  .training .prize .prize-con {
+    display: inline-block;
+    vertical-align: top;
+    width: 300px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -1471,7 +1492,15 @@ figure {
     flex: 1 0 auto;
   }
   .training .prize .prize-img {
+    display: inline-block;
+    margin: 0 30px 0 0;
+    vertical-align: middle;
     width: 50%;
+  }
+  .training .prize .prize-con {
+    display: inline-block;
+    vertical-align: top;
+    width: 300px;
   }
 }
 @media screen and (min-width: 1024px) {
@@ -1491,10 +1520,37 @@ figure {
   .training .leaderboard .leaderboard-listing li:nth-child(9) {
     border-bottom: 0;
   }
+  .training .prize .prize-con {
+    vertical-align: baseline;
+    width: 550px;
+  }
 }
 @media screen and (min-width: 1336px) {
   .training .hero {
     height: 600px;
+  }
+  .training .prize .prize-container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1280px;
+  }
+  .training .prize .prize-intro {
+    display: inline-block;
+    margin-right: 30px;
+    margin-bottom: 0;
+    vertical-align: top;
+    width: calc((100% / 3) - 60px);
+  }
+  .training .prize .prize-img {
+    display: inline-block;
+    margin-right: 30px;
+    vertical-align: middle;
+    width: calc((100% / 3) - 60px);
+  }
+  .training .prize .prize-con {
+    display: inline-block;
+    vertical-align: middle;
+    width: calc((100% / 3));
   }
 }
 @media screen and (min-width: 1920px) {

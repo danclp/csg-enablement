@@ -29,44 +29,64 @@
 	} // .introduction-container
 
 	.products-list {
-		.products-list-container {
-			display: flex;
-			flex-direction: column;
-			flex-wrap: wrap;
-		} // .products-list-container
+		.cate-title {
+			font: {
+				size: 1.5em;
+				weight: weight('bold');
+			} // font
+			margin-top: 1em;
+		} // .cate-title
 
 		.product-box {
-			display: flex;
-			margin-bottom: 20px;
+			background-color: site-color('primary');
+			margin-bottom: 30px;
+			min-width: 220px;
 		} // .product-box
 
 		.product-specs {
-			background-color: site-color('primary');
+			align-items: flex-start;
 			color: site-color('day');
-			font-size: 0.85em;
-			padding: 10px;
+			display: flex;
+			flex-direction: column;
+			flex: 1 1 auto;
+			padding: 15px;
 
 			h4 {
-				font-size: 1.2em;
-				margin: 0;
+				font: {
+					size: 1.25em;
+					weight: weight('bold');
+				} // font
+				margin-top: 0;
 			} // h4
-
-			a {
-				color: site-color('day');
-			} // a
 		} // .product-specs
 
 		.whitebtn {
-			border: 1px solid site-color('day');
-			font-size: 0.75em;
-			margin-top: 10px;
+			float: left;
+			margin-top: 20px;
 		} // .whitebtn
 	} // .products-list
 
+	@include breakpoint(430px, 667px) {
+		.products-list {
+			.products-cate-container {
+				display: flex;
+				flex-wrap: wrap;
+				margin-left: -15px;
+				margin-right: -15px;
+			} // .products-cate-container
+
+			.product-box {
+				display: flex;
+				flex-direction: column;
+				margin-left: 15px;
+				margin-right: 15px;
+				width: calc(100% / 12 * 6 - 30px);
+			} // .product-box
+		} // .products-list
+	} // bp(430,667)
+
 	@include retina(iPhonel) {
 		.hero {
-			height: 350px;
-
 			&:before {
 				background : {
 					image: linear-gradient(to right, rgba(site-color('day'), 0.85), rgba(site-color('day'), 0));
@@ -91,32 +111,19 @@
 		} // .hero
 
 		.products-list {
-			.products-list-container {
-				flex-direction: row;
-			} // .products-list-container
+			.products-cate-container {
+				display: flex;
+				flex-wrap: wrap;
+				margin-left: -15px;
+				margin-right: -15px;
+			} // .products-cate-container
 
 			.product-box {
-				display: block;
-				flex: 1 0 calc((100% / 4 * 2) - 20px);
-
-				&:nth-child(2n+1) {
-					margin-right: 20px;
-				} // nth-child(2n+1)
-
-				.product-specs {
-					display: flex;
-					flex-direction: column;
-					justify-content: center;
-					align-items: flex-start;
-
-					.whitebtn {
-						margin-top: 20px;
-					} // .whitebtn
-
-					p {
-						margin-bottom: 0;
-					} // p
-				} // .product-specs
+				display: flex;
+				flex-direction: column;
+				margin-left: 15px;
+				margin-right: 15px;
+				width: calc(100% / 12 * 6 - 30px);
 			} // .product-box
 		} // .products-list
 	} // retina(iPhonel)
@@ -148,37 +155,19 @@
 		} // .introduction
 
 		.products-list {
-			.products-list-container {
-				flex-direction: row;
-			} // .products-list-container
+			.products-cate-container {
+				display: flex;
+				flex-wrap: wrap;
+				margin-left: -15px;
+				margin-right: -15px;
+			} // .products-cate-container
 
 			.product-box {
-				background: site-color('primary');
-				display: block;
-				flex: 1 0 calc((100% / 16 * 4) - 40px);
-				margin-right: 20px;
-
-				&:nth-child(4n) {
-					margin-right: 0;
-				} // :nth-child(4n)
-
-				.product-specs {
-					display: flex;
-					flex-direction: column;
-					align-items: flex-start;
-
-					.whitebtn {
-						margin-top: 20px;
-					} // .whitebtn
-
-					p {
-						margin-bottom: 0;
-					} // p
-				} // .product-specs
-
-				.whitebtn {
-					font-size: 0.85em;
-				} // .whitebtn
+				display: flex;
+				flex-direction: column;
+				margin-left: 15px;
+				margin-right: 15px;
+				width: calc(100% / 12 * 4 - 60px);
 			} // .product-box
 		} // .products-list
 	} // breakpoint($tablet)
@@ -200,6 +189,12 @@
 			margin-left: auto;
 			margin-right: auto;	
 		} // .introduction, .products-list
+
+		.products-list {
+			.product-box {
+				width: calc(100% / 12 * 3 - 55px);
+			} // .product-box
+		} // .products-list
 	} // bp($common)
 
 	@include breakpoint($widescn) {
